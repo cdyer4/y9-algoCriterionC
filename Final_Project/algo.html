@@ -1,0 +1,53 @@
+
+<html>
+
+    <head>
+        <script src="data_1_1_1copy.json"></script>
+    </head>
+
+    <body>
+        <h1>World poverty 25+ Age / Both Sexes (2000-2007)</h1>
+        <div id="mydata"></div>
+        
+        <canvas id="myCanvas" width="800" height="1200"></canvas>
+        
+    </body>
+   
+    <script>
+        
+        drawChallenge();
+                
+        function drawChallenge() {
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+        
+            
+            ctx.font = "20px Arial";
+            
+            mycolors = ["slateblue","mediumslateblue","steelblue","cadetblue","lightseagreen","darkcyan","teal","mediumaquamarine","turquoise","mediumturquoise","darkturquoise","cyan","aqua","lightskyblue","deepskyblue","dodgerblue","royalblue","blue","mediumblue",];
+            mynums = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,];
+            
+            barY = 0;
+            textY = 35;
+            Yinc = 60;
+            
+            
+            // 8x4 lines of code - wasteful! we need a loop algorithm here
+                
+        
+            
+            for (num = 0; num < mycolors.length; num++) {
+                ctx.fillStyle = mycolors[num];
+                ctx.fillRect(10,barY,data[mynums[num]]['Value'] * 30,50);
+                ctx.fillStyle = "white";
+                ctx.fillText(data[mynums[num]]["TimePeriod"] + ": " + data[mynums[num]]['Value'] + "%", 15,textY)
+                barY = barY + Yinc;
+                textY = textY + Yinc;
+            }
+        }
+            
+ 
+    </script>
+
+
+</html>
