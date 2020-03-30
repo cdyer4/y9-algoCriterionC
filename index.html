@@ -1,0 +1,69 @@
+<html>
+    
+    <head>
+        <link href="mystyles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    
+    <style>
+            body {
+                background-image: linear-gradient(to right, steelblue, turquoise, green);
+        }
+        </style>
+    
+    <body>
+        
+        <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">Animals Affected</a>
+        <a href="contact.html">What can we do?</a>
+        </div>
+        <script>
+            
+            window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("topnav");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+        </script>
+        
+        <div class="parallax"></div>
+        
+        <style>
+            .parallax {
+        background-image: url("HabitatLoss.png");
+
+        height: 250px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+</style>
+
+<div class="parallax"></div>
+        
+        <img src="sdgfish.png" alt="underwaterimage" style="width:350px;height:350px;"align="left">
+        <img src="sdgland.png" alt="landimage" style="width:350px;height:350px;"align="right">
+        <h1 style="font-size:50px"align="middle">Introduction</h1>
+        <p style="font-size:20px"align="middle">Habitat loss is the destruction of living spaces causing it to be uninhabitable by the species living there. This is becoming more and more of a problem as forests are being bulldozed for the trees and oceans are being poluted. This leads to thousands od species going extinct. My hope is that by visiting this website, you learn about the challenges facing the species affected by habitat loss and hopefully start making small changes to your life to support those affected.</p>
+        
+
+        
+    </body>
+
+
+
+
+
+</html>
