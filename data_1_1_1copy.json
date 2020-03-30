@@ -1,0 +1,137 @@
+data = [
+  
+  
+ {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2000,
+    "Value": 2.22798,
+    "Time_Detail": 2000
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2001,
+    "Value": 2.36776,
+    "Time_Detail": 2001
+  },
+ {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2002,
+    "Value": 2.99606,
+    "Time_Detail": 2002
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2003,
+    "Value": 3.01933,
+    "Time_Detail": 2003
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2004,
+    "Value": 3.08811,
+    "Time_Detail": 2004
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2005,
+    "Value": 3.14815,
+    "Time_Detail": 2005
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2006,
+    "Value": 4.2822,
+    "Time_Detail": 2006
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2007,
+    "Value": 5.10557,
+    "Time_Detail": 2007
+  },
+ {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2008,
+    "Value": 5.35341,
+    "Time_Detail": 2008
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2009,
+    "Value": 6.52026,
+    "Time_Detail": 2009
+  },
+ {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2010,
+    "Value": 7.27283,
+    "Time_Detail": 2010
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2011,
+    "Value": 7.29866,
+    "Time_Detail": 2011
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2012,
+    "Value": 10.05607,
+    "Time_Detail": 2012
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2013,
+    "Value": 10.24175,
+    "Time_Detail": 2013
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2014,
+    "Value": 11.2565,
+    "Time_Detail": 2014
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2015,
+    "Value": 11.99393,
+    "Time_Detail": 2015
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2016,
+    "Value": 13.66789,
+    "Time_Detail": 2016
+  },
+{
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2017,
+    "Value": 16.10296,
+    "Time_Detail": 2017
+  },
+  {
+    "GeoAreaCode": 1,
+    "GeoAreaName": "World",
+    "TimePeriod": 2018,
+    "Value": 17.16019,
+    "Time_Detail": 2018
+  }
+    ]
